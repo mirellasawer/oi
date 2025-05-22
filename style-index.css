@@ -1,0 +1,91 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f5ee;
+    color: #3e3e3e;
+    }
+    
+    .cabecalho-campo {
+    background: linear-gradient(to right, #8fbf7f, #cdebb0);
+    padding: 30px;
+    text-align: center;
+    color: #2e3d27;
+    }
+    
+    .cabecalho-campo h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    }
+    
+    .menu-campo {
+    background-color: #f0ead2;
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+    gap: 25px;
+    }
+    
+    .menu-campo a {
+    color: #4b6043;
+    text-decoration: none;
+    font-weight: bold;
+    }
+    
+    .menu-campo a:hover {
+    color: #2c462c;
+    }
+    
+    .boas-vindas {
+    padding: 30px 20px;
+    background-color: #fff9ec;
+    text-align: center;
+    }
+    
+    .boas-vindas h2 {
+    color: #5b7744;
+    font-size: 2em;
+    margin-bottom: 10px;
+    }
+    
+    .gallery {
+    padding: 20px;
+    background-color: #f0f4ec;
+    }
+    
+    .gallery h3 {
+    text-align: center;
+    font-size: 1.8em;
+    color: #4a5a3c;
+    }
+    
+    .gallery p {
+    text-align: center;
+    color: #666;
+    margin-bottom: 20px;
+    }
+    
+    .image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 15px;
+    }
+    
+    .image-grid img {
+    width: 100%;
+    border-radius: 12px;
+
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s;
+    }
+    
+    .image-grid img:hover {
+    transform: scale(1.05);
+    }
+    
+    .rodape-campo {
+    background-color: #8fbf7f;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    }
