@@ -89,3 +89,30 @@ body {
     text-align: center;
     padding: 20px;
     }
+/* Estilo moderno para seções de conteúdo */
+.conteudo {
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background: linear-gradient(135deg, #ffffff, #f0f4e3);
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  font-size: 1.1rem;
+  line-height: 1.8;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+/* Transição de destaque ao passar o mouse */
+.transicao:hover {
+  transform: scale(1.02);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Título animado */
+.conteudo h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #355e3b;
+  border-bottom: 2px solid #acc;
+  padding-bottom: 0.5rem;
+}
