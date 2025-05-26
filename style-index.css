@@ -1,15 +1,3 @@
-/* Variáveis para cores */
-:root {
-  --verde-escuro: #2e7d32;
-  --verde-claro: #4caf50;
-  --verde-claro-2: #a8e063;
-  --amarelo-claro: #fff3e0;
-  --fundo-claro: #f9f5ee;
-  --fundo-gradiente: #f0f4e3;
-  --texto-principal: #2f2f2f;
-  --cinza-escuro: #666;
-}
-
 /* Animação de entrada */
 @keyframes fadeIn {
   from {
@@ -27,14 +15,14 @@ body {
   font-family: 'Nunito', sans-serif;
   margin: 0;
   padding: 0;
-  background: linear-gradient(to bottom, var(--fundo-claro), var(--fundo-gradiente));
-  color: var(--texto-principal);
+  background: linear-gradient(to bottom, #f9f5ee, #f0f4e3);
+  color: #2f2f2f;
   font-size: 1rem;
 }
 
 /* Cabeçalho com visual forte */
 .cabecalho-campo {
-  background: linear-gradient(90deg, var(--verde-claro), var(--verde-claro-2));
+  background: linear-gradient(90deg, #4caf50, #a8e063);
   padding: 40px 20px;
   text-align: center;
   color: #fff;
@@ -49,7 +37,7 @@ body {
 
 /* Menu de navegação estilizado */
 .menu-campo {
-  background-color: var(--verde-escuro);
+  background-color: #2e7d32;
   display: flex;
   justify-content: center;
   padding: 14px;
@@ -68,14 +56,14 @@ body {
 }
 
 .menu-campo a:hover {
-  background-color: var(--verde-escuro);
+  background-color: #2e7d32;
   transform: scale(1.05);
 }
 
 /* Seção de boas-vindas */
 .boas-vindas {
   padding: 40px 20px;
-  background-color: var(--amarelo-claro);
+  background-color: #fff3e0;
   text-align: center;
   animation: fadeIn 1s ease-in;
 }
@@ -101,7 +89,7 @@ body {
 
 .gallery p {
   text-align: center;
-  color: var(--cinza-escuro);
+  color: #666;
   margin-bottom: 30px;
   font-size: 1.1rem;
 }
@@ -125,7 +113,7 @@ body {
 
 /* Rodapé */
 .rodape-campo {
-  background-color: var(--verde-claro);
+  background-color: #4caf50;
   color: #fff;
   text-align: center;
   padding: 25px;
@@ -153,7 +141,7 @@ body {
 .conteudo h2 {
   font-size: 2.2rem;
   margin-bottom: 1.5rem;
-  color: var(--verde-escuro);
+  color: #2e7d32;
   border-bottom: 3px solid #c8e6c9;
   padding-bottom: 0.5rem;
 }
@@ -161,7 +149,7 @@ body {
 /* Bloco com diferenciação de cor */
 .bloco-colorido {
   background: linear-gradient(135deg, #f0fff0, #e1f5e6);
-  border-left: 6px solid var(--verde-claro);
+  border-left: 6px solid #4caf50;
   padding: 1rem 1.5rem;
   margin-top: 2rem;
 }
@@ -183,7 +171,7 @@ body {
 
 .destaque-info h3 {
   margin-bottom: 0.8rem;
-  color: var(--verde-escuro);
+  color: #2e7d32;
   font-size: 1.3rem;
 }
 
