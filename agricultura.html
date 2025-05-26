@@ -1,49 +1,60 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Agricultura Familiar</title>
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet" />
-</head>
-<body>
-  <header class="cabecalho-campo">
-    <h1>Agricultura Familiar</h1>
-    <p>Valorizando quem cultiva e cuida da terra com dedicação e saberes tradicionais.</p>
-  </header>
+body {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-color: #0f2027;
+color: #fff;
+margin: 0;
+padding: 0;
+}
 
-  <nav class="menu-campo">
-    <a href="index.html">Início</a>
-    <a href="agricultura.html" class="ativo">Agricultura Familiar</a>
-    <a href="cultura.html">Cultura e Sustentabilidade</a>
-  </nav>
+header {
+background: linear-gradient(90deg, #2c5364, #203a43, #0f2027);
+color: #fff;
+text-align: center;
+padding: 30px 10px;
+}
 
-  <main>
-    <section class="conteudo transicao bloco-colorido">
-      <h2>A importância da agricultura familiar</h2>
-      <p>
-        A agricultura familiar é responsável por grande parte dos alimentos que chegam à nossa mesa,
-        além de promover o desenvolvimento sustentável e a conservação do meio ambiente.
-      </p>
-      <p>
-        Ela é baseada no trabalho de pequenos produtores que utilizam técnicas tradicionais,
-        aliadas a inovações para garantir qualidade e preservação.
-      </p>
+nav {
+background-color: #1c1c1c;
+text-align: center;
+padding: 15px;
+}
 
-      <div class="destaque-info">
-        <h3>Exemplos práticos:</h3>
-        <ul>
-          <li><strong>Plantio orgânico:</strong> cultivando sem uso de agrotóxicos.</li>
-          <li><strong>Rotação de culturas:</strong> para manter a fertilidade do solo.</li>
-          <li><strong>Feiras locais:</strong> valorizando a venda direta ao consumidor.</li>
-        </ul>
-      </div>
-    </section>
-  </main>
+nav a {
+color: #00ffcc;
+margin: 0 15px;
+text-decoration: none;
+font-weight: bold;
+}
 
-  <footer class="rodape-campo">
-    <p>&copy; 2025 Projeto Agrinho - Agricultura Familiar</p>
-  </footer>
-</body>
-</html>
+nav a:hover {
+color: #fff;
+}
+
+main {
+padding: 20px;
+}
+
+.image-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+gap: 15px;
+margin-top: 15px;
+}
+
+.image-grid img {
+width: 100%;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+transition: transform 0.3s;
+}
+
+.image-grid img:hover {
+transform: scale(1.05);
+}
+
+footer {
+background-color: #1c1c1c;
+color: white;
+text-align: center;
+padding: 20px;
+}
