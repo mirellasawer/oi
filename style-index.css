@@ -10,6 +10,11 @@
   }
 }
 
+/* Transição para elementos que usam a classe 'transicao' */
+.transicao {
+  transition: all 0.3s ease;
+}
+
 /* Reset e fonte base */
 body {
   font-family: 'Nunito', sans-serif;
@@ -60,64 +65,11 @@ body {
   transform: scale(1.05);
 }
 
-/* Seção de boas-vindas */
-.boas-vindas {
-  padding: 40px 20px;
-  background-color: #fff3e0;
-  text-align: center;
-  animation: fadeIn 1s ease-in;
-}
-
-.boas-vindas h2 {
-  color: #5b7744;
-  font-size: 2.2em;
-  margin-bottom: 1rem;
-}
-
-/* Galeria */
-.gallery {
-  padding: 40px 20px;
-  background-color: #f0f4ec;
-}
-
-.gallery h3 {
-  text-align: center;
-  font-size: 2em;
-  color: #4a5a3c;
-  margin-bottom: 1rem;
-}
-
-.gallery p {
-  text-align: center;
-  color: #666;
-  margin-bottom: 30px;
-  font-size: 1.1rem;
-}
-
-.image-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 20px;
-}
-
-.image-grid img {
-  width: 100%;
-  border-radius: 14px;
-  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
-  transition: transform 0.4s ease;
-}
-
-.image-grid img:hover {
-  transform: scale(1.08);
-}
-
-/* Rodapé */
-.rodape-campo {
-  background-color: #4caf50;
-  color: #fff;
-  text-align: center;
-  padding: 25px;
-  font-size: 1rem;
+/* Link ativo no menu */
+.menu-campo a.ativo {
+  background-color: #81c784;
+  cursor: default;
+  pointer-events: none;
 }
 
 /* Seções de conteúdo com estilo moderno */
@@ -154,7 +106,8 @@ body {
   margin-top: 2rem;
 }
 
-.bloco-colorido:nth-of-type(2) {
+/* Segundo bloco com cor diferente */
+.bloco-colorido.segundo {
   background: linear-gradient(135deg, #fdf9f0, #fff3e0);
   border-left: 6px solid #ff9800;
 }
@@ -182,4 +135,13 @@ body {
 
 .destaque-info li {
   margin-bottom: 0.6rem;
+}
+
+/* Rodapé */
+.rodape-campo {
+  background-color: #4caf50;
+  color: #fff;
+  text-align: center;
+  padding: 25px;
+  font-size: 1rem;
 }
