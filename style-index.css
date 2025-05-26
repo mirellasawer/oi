@@ -1,3 +1,15 @@
+/* Animação de entrada */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 /* Reset e fonte base */
 body {
   font-family: 'Nunito', sans-serif;
@@ -172,14 +184,3 @@ body {
   margin-bottom: 0.6rem;
 }
 
-/* Animação de entrada */
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
